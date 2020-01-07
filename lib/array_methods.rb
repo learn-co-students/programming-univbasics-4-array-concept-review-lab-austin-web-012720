@@ -8,18 +8,12 @@ end
 
 def find_max_value(array)
   max = array[0]
-  array.length.times { |i|
-  if array]i] > max
-    max = array[i]
-  }
+  array.length.times { |i| max = array[i]  if array]i] > max}
   return max
 end
 
 def find_min_value(array)
   min = array[0]
-  array.length.times { |i|
-  if array]i] < min
-    min = array[i]
-  }
+  array.length.times { |i| min = array[i]  if array]i] < min}
   return min
 end
